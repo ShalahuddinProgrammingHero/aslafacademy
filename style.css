@@ -1,0 +1,120 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&family=Big+Shoulders+Text&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body{
+    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+img {
+    width: 100%;
+}
+/* Conduct Header Area Style Start*/
+.conduct-header {
+    background-color: #590000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.conduct-header span {
+    margin: 0 5px;
+}
+.conduct-header p{
+    text-align: end;
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/* Conduct Header Area Style End*/
+
+/* Header Area Style Start */
+header img {
+    width: 90px;
+    height: 66px;
+}
+header .center {
+    margin: 0 auto;
+    background-color: #850000;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+header ul li {
+    margin: 0 10px;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+header ul li .text-color {
+    color: white !important;
+}
+header ul li:hover {
+    background-color: #ffa300;
+}
+/* Header Area Style End */
+.all-courses .active {
+    background-color: #850000;
+    color: white;
+}
+.all-courses .course-section:nth-child(02):hover{
+    background-color: #9700CE;
+    color: white;
+}
+.all-courses .coures-bg:hover {
+    color: white;
+    background-color: #9700CE;
+    transform: scale(.9);
+    transition: .9s ease;
+}
+.all-courses i {
+    margin-right: 5px;
+}
+.hero-section .small-device {
+    display: none !important;
+}
+/* Hero Section Area Style End */
+
+
+
+
+
+
+
+
+
+
+/*************************************************************************************************************/
+/* Media Queries */
+/*************************************************************************************************************/
+@media only screen and (max-width:991px) {
+    header .center {
+        background-color: transparent;
+    }
+    header ul li .text-color {
+        color: black !important;
+    }
+    header hr {
+        display: none;
+    }
+    header ul li {
+        margin: 0;
+        padding: 0;
+    }
+    header ul li:hover {
+        background-color: transparent;
+    }
+
+
+    .hero-section .all-courses {
+        display: none;
+    }
+    .hero-section .small-device {
+        display: block !important;
+        display: flex !important;
+    }
+}
