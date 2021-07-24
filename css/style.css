@@ -16,13 +16,15 @@ img {
 .text-color {
     color: #850000;
 }
+.border-color {
+    border: 5px solid #850000 !important;
+}
 .text-border {
     padding: 0px 0px 0px 15px;
     border-style: solid;
     border-width: 0px 0px 0px 5px;
     border-color: #840000;
 }
-
 /* Conduct Header Area Style Start*/
 .conduct-header {
     background-color: #590000;
@@ -140,6 +142,57 @@ marquee {
 /* Team Section Area Stye End */
 
 
+/* Aslaf Accademy Section Area Style Start */
+.aslaf i {
+    color: #850000;
+    font-size: 3rem;
+    margin-right: 10px;
+    border: .3rem solid #850000;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.aslaf i.fa-female {
+    margin-right: 45px;
+}
+.aslaf i:hover {
+    color: white;
+    background-color: #850000;
+}
+/* Aslaf Accademy Section Area Style End */
+
+
+/* Student Review Section Area Style Start */
+.student-review img {
+    width: 90px;
+    height: 90px;
+}
+/* Student Review Section Area Style End */
+
+/* Conduct Section Area Style Start */
+.conduct-us {
+    background-color: #590000;
+    color: white;
+}
+.conduct-us a {
+    text-decoration: none;
+    color: #ffa300;
+    font-size: 16px;
+}
+.conduct-us a:hover {
+    color: white;
+}
+/* Conduct Section Area Style End */
+
+/* Footer Area Style Start */
+footer {
+    background-color: #3F444A;
+    padding: 10px 0;
+
+}
+footer p {
+    margin-bottom: 0;
+}
+/* Footer Area Style End */
 
 
 
@@ -157,12 +210,6 @@ marquee {
 /*************************************************************************************************************/
 /* Media Queries */
 /*************************************************************************************************************/
-@media only screen and (max-width:570px){
-    iframe {
-        display: block;
-        margin: 0 auto;
-    }
-
 @media only screen and (max-width:991px) {
     header .center {
         background-color: transparent;
@@ -183,10 +230,15 @@ marquee {
 
 
     .hero-section .all-courses {
-        display: none;
+        display: none !important;
     }
     .hero-section .small-device {
         display: block !important;
         display: flex !important;
     }
 }
+@media only screen and (max-width:570px){
+    iframe {
+        display: block;
+        margin: 0 auto;
+    }
