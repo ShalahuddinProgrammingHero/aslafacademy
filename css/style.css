@@ -94,6 +94,54 @@ marquee {
 }
 /* Hero Section Area Style End */
 
+/* Courses Section Area Style Start */
+.courses span i.empty{
+    font-size: 14px;
+    color: rgb(212, 179, 179);
+}
+.courses span i.full{
+    font-size: 14px;
+    color: #F4C150;
+}
+.student-icon span:nth-child(01) {
+    margin-right: 8px;
+}
+.author-picture img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.author-name span {
+    color: #1e73be;
+}
+.price p {
+    font-size: 25px;
+}
+.courses .card:hover {
+    transform: scale(1.02);
+    transition: .5s ease;
+}
+.price p {
+    color: #57bf6d;
+}
+/* Courses Section Area Style End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*************************************************************************************************************/
 /* Media Queries */
 /*************************************************************************************************************/
