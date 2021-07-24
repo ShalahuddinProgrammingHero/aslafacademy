@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 body{
     font-family: 'Big Shoulders Text', cursive;
@@ -157,22 +157,11 @@ marquee {
 /*************************************************************************************************************/
 /* Media Queries */
 /*************************************************************************************************************/
-@media only screen and (max-width:770px){
-    iframe {
-        width: 400px;
-        height: 300px;
-    }
-}
 @media only screen and (max-width:570px){
     iframe {
-        width: 270px;
-        height: 300px;
+        display: block;
         margin: 0 auto;
     }
-    .video {
-        margin: 0 auto !important;
-    }
-}
 
 @media only screen and (max-width:991px) {
     header .center {
